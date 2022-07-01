@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 22px;
+    line-height: 2;
+    background-color: black;
+    color: white;
+}
+
+.collageG{
+    height: 430px;
+}
+
+.daron{
+    height: 228px;
+}
+
+.shavo{
+    height: 190px;
+}
+
+.john{
+    height: 190px;
+}
+
+.contenedorImagen{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+/* pagina de boletos */
+
+.boletos{
+    height: 500px;
+    width: 60%;
+    margin-top: 40px;
+    background-position: center center;
+    background-size: cover
+}
+
+.paginaBoletos{
+    text-align: center;
+    margin-top: 400px;
+}
+
+.BodyB{
+    background-image: url(/IMG/boletosC.jpg);
+    height: 1000px;
+}
+
+
+.shavo:hover{
+    filter: opacity(.5);
+
+}
+
+.john:hover{
+    filter: opacity(.5);
+
+}
+
+.daron:hover{
+    filter: opacity(.5);
+}
+
+.serj:hover{
+    filter: opacity(.5);
+}
+
